@@ -1,0 +1,15 @@
+.user-info-wrapper {
+  text-align: center; }
+  .user-info-wrapper .avatar {
+    display: inline-block;
+    vertical-align: middle;
+    padding-right: 20px; }
+    .user-info-wrapper .avatar img {
+      height: 100px;
+      border-radius: 50px; }
+  .user-info-wrapper .git-info {
+    display: inline-block; }
+    .user-info-wrapper .git-info span {
+      font-weight: 600;
+      font-size: 20px;
+      color: #343434; }

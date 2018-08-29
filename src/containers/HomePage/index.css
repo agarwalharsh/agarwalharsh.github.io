@@ -1,0 +1,56 @@
+.home-page-wrapper {
+  width: 60%;
+  margin: 0 auto; }
+  @media only screen and (min-width: 320px) and (max-width: 991px) {
+    .home-page-wrapper {
+      width: 100%;
+      margin: 0; } }
+  .home-page-wrapper .user-repo-form .title {
+    text-align: center; }
+  .home-page-wrapper .user-repo-form .githubform {
+    text-align: center; }
+    .home-page-wrapper .user-repo-form .githubform input[type="text"] {
+      min-height: 60px;
+      padding: 6px 8px;
+      font-size: 25px;
+      line-height: 20px;
+      border: 1px solid #d1d5da;
+      outline: none;
+      box-shadow: inset 0 1px 2px rgba(27, 31, 35, 0.075);
+      width: 80%;
+      background: #FFF; }
+      @media only screen and (min-width: 320px) and (max-width: 991px) {
+        .home-page-wrapper .user-repo-form .githubform input[type="text"] {
+          width: 95%;
+          margin: 10px; } }
+    .home-page-wrapper .user-repo-form .githubform button {
+      cursor: pointer;
+      min-height: 58px;
+      font-size: 25px;
+      margin-top: 40px; }
+      @media only screen and (min-width: 320px) and (max-width: 991px) {
+        .home-page-wrapper .user-repo-form .githubform button {
+          width: 85%; } }
+    .home-page-wrapper .user-repo-form .githubform::after {
+      content: "";
+      clear: both;
+      display: table; }
+  .home-page-wrapper .user-repo-form input[type="text"]:focus {
+    width: 80%; }
+    @media only screen and (min-width: 320px) and (max-width: 991px) {
+      .home-page-wrapper .user-repo-form input[type="text"]:focus {
+        width: 95%; } }
+  .home-page-wrapper .user-repositories-list {
+    padding: 40px 0; }
+    @media only screen and (min-width: 320px) and (max-width: 991px) {
+      .home-page-wrapper .user-repositories-list {
+        padding: 20px 15px; } }
+    .home-page-wrapper .user-repositories-list ul {
+      list-style: none;
+      padding: 0;
+      margin: 0; }
+    .home-page-wrapper .user-repositories-list .border-bottom {
+      border-bottom: 1px #e1e4e8 solid;
+      margin-bottom: 10px; }
+      .home-page-wrapper .user-repositories-list .border-bottom .title {
+        display: inline-block; }

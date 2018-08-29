@@ -1,0 +1,34 @@
+.issue-detail-wrapper {
+  width: 70%;
+  margin: 40px auto; }
+  @media only screen and (min-width: 320px) and (max-width: 991px) {
+    .issue-detail-wrapper {
+      width: 95%; } }
+  .issue-detail-wrapper hr {
+    margin: 20px 0; }
+  .issue-detail-wrapper .info-header {
+    padding: 10px 0; }
+    .issue-detail-wrapper .info-header .issue-titile {
+      font-weight: 600;
+      font-size: 25px;
+      padding-right: 10px; }
+    .issue-detail-wrapper .info-header .issue-num {
+      font-size: 30px;
+      font-weight: 300;
+      color: #a3aab1; }
+  .issue-detail-wrapper .info-desc .issue-status {
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 4px 10px 5px;
+    color: #f1f1f1;
+    text-align: center;
+    background-color: #343434;
+    margin-right: 10px; }
+  .issue-detail-wrapper .info-desc .issue-details {
+    display: inline-block;
+    color: #586069;
+    font-size: 16px;
+    line-height: 20px; }
+  .issue-detail-wrapper .githubform {
+    display: none; }

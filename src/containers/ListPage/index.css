@@ -1,0 +1,73 @@
+.list-page-wrapper {
+  width: 80%;
+  margin: 40px auto; }
+  @media only screen and (min-width: 320px) and (max-width: 991px) {
+    .list-page-wrapper {
+      width: 95%; } }
+  .list-page-wrapper .user-issues-list {
+    margin: 20px 0;
+    border: 1px solid #e1e4e8; }
+    .list-page-wrapper .user-issues-list ul {
+      list-style: none;
+      padding: 0;
+      margin: 0; }
+      .list-page-wrapper .user-issues-list ul .border-bottom:last-child {
+        border-bottom: 0; }
+    .list-page-wrapper .user-issues-list .border-bottom {
+      border-bottom: 1px solid #e1e4e8; }
+      .list-page-wrapper .user-issues-list .border-bottom .title {
+        display: inline-block; }
+    .list-page-wrapper .user-issues-list .error-message {
+      padding: 20px; }
+
+.issues__pagination {
+  padding-top: 1rem;
+  text-align: center; }
+
+.issues__pagination > ul {
+  padding: 0;
+  margin: 0; }
+
+.issues__pagination li {
+  display: inline-block; }
+
+.issues__pagination li > a {
+  padding: 0.5rem;
+  margin: 1px;
+  display: inline-block;
+  cursor: pointer;
+  background-color: #fff;
+  border: 1px solid #343434;
+  min-width: 1rem;
+  font-size: 30px; }
+  @media only screen and (min-width: 320px) and (max-width: 991px) {
+    .issues__pagination li > a {
+      font-size: 15px; } }
+
+.issues__pagination li > a:focus {
+  outline: none; }
+
+.issues__pagination li:not(.selected) > a:hover {
+  background-color: #f1f1f1; }
+
+.issues__pagination .selected a {
+  background-color: #a2a2a2;
+  color: #f1f1f1; }
+
+.issues__pagination .disabled > a {
+  color: #ccc;
+  background-color: #f8f8f8;
+  border-color: #eee;
+  cursor: default; }
+
+.issues__pagination .disabled > a:hover {
+  background-color: #f8f8f8; }
+
+.issues__pagination .break {
+  margin: 0 8px; }
+
+.issues__pagination .previous {
+  margin-right: 1rem; }
+
+.issues__pagination .next {
+  margin-left: 1rem; }

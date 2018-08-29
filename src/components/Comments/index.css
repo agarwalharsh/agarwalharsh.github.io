@@ -1,0 +1,63 @@
+.comment-container {
+  border: 1px solid grey;
+  margin-bottom: 20px;
+  padding: 10px; }
+
+.comment-user {
+  border-bottom: 1px solid gray;
+  padding: 10px;
+  margin: -10px -10px;
+  background-color: lightgray; }
+
+.comment-body {
+  word-break: break-all; }
+
+.comments-container {
+  width: 100%;
+  margin: 10px 0; }
+  @media only screen and (min-width: 320px) and (max-width: 991px) {
+    .comments-container {
+      width: 95%;
+      margin: 10px; } }
+
+.comment-titile {
+  color: #343434; }
+
+.githubform input[type="text"] {
+  min-height: 30px;
+  padding: 6px 8px;
+  font-size: 12px;
+  line-height: 20px;
+  border: 1px solid #d1d5da;
+  outline: none;
+  box-shadow: inset 0 1px 2px rgba(27, 31, 35, 0.075);
+  width: 80%;
+  background: #FFF;
+  margin-bottom: 10px; }
+  @media only screen and (min-width: 320px) and (max-width: 991px) {
+    .githubform input[type="text"] {
+      width: 95%;
+      margin: 10px; } }
+
+.githubform input[type="submit"] {
+  float: left;
+  width: 15%;
+  cursor: pointer;
+  min-height: 58px;
+  border-radius: 10px;
+  font-size: 20px;
+  margin-top: -35px;
+  background-color: #0366d6;
+  color: white; }
+  @media only screen and (min-width: 320px) and (max-width: 991px) {
+    .githubform input[type="submit"] {
+      width: 95%;
+      margin: 10px;
+      display: block;
+      min-height: 40px;
+      font-size: 15px; } }
+
+.githubform::after {
+  content: "";
+  clear: both;
+  display: table; }
