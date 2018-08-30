@@ -9,4 +9,4 @@
     .header-row-wrapper .status-block .issue-length {
       color: #f1f1f1; }
     .header-row-wrapper .status-block .icon.status.open::before {
-      color: #f1f1f1; }
+      display: none; }

@@ -1,20 +1,30 @@
 .comment-container {
   border: 1px solid grey;
+  border-radius: 10px;
   margin-bottom: 20px;
   padding: 10px; }
+  .comment-container::after {
+    content: '';
+    position: absolute;
+    width: 2px;
+    height: 16px;
+    background-color: lightgray;
+    margin-top: 13px;
+    margin-left: 15px; }
 
 .comment-user {
   border-bottom: 1px solid gray;
   padding: 10px;
   margin: -10px -10px;
-  background-color: lightgray; }
+  background-color: lightgray;
+  border-radius: 10px 10px 0px 0px; }
 
 .comment-body {
   word-break: break-all; }
 
 .comments-container {
-  width: 100%;
-  margin: 10px 0; }
+  width: 90%;
+  margin: 10px 40px; }
   @media only screen and (min-width: 320px) and (max-width: 991px) {
     .comments-container {
       width: 95%;

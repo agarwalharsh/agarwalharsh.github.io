@@ -51,15 +51,12 @@ button {
   appearance: none;
   color: #24292e;
   background-color: #eff3f6;
-  background-image: linear-gradient(-180deg, #fafbfc 0%, #eff3f6 90%);
 
   &.primary {
     color: #fff;
-    background-color: #0366d6;;
-    background-image: linear-gradient(-180deg, #0366d6 0%, #0366c9 90%);
+    background-color: #343434;;
     &:hover {
-      background-color: #0366d6;;
-      background-image: linear-gradient(-180deg, #0366d6 0%, #0366c9 90%);
+      background-color: #343434;;
       background-position: -.5em;
       border-color: rgba(27,31,35,0.5);
     }
@@ -67,7 +64,6 @@ button {
 }
 button:hover {
   background-color: #e6ebf1;
-  background-image: linear-gradient(-180deg, #f0f3f6 0%, #e6ebf1 90%);
   background-position: -.5em;
   border-color: rgba(27,31,35,0.35);
 }
@@ -88,6 +84,7 @@ button:hover {
   }
   &.open::before {
     content: "\2609";
+    display: none;
   }
   &.close::before {
     content: "\2612";

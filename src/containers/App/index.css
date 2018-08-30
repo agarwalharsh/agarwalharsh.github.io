@@ -17,7 +17,7 @@ h1 {
   font-size: 40px; }
 
 a {
-  color: #343434;
+  color: #0366d6;
   font-size: 40px;
   text-decoration: none; }
   a h1 {
@@ -47,12 +47,19 @@ button {
   -moz-appearance: none;
   appearance: none;
   color: #24292e;
-  background-color: #eff3f6;
-   }
+  background-color: #eff3f6; }
   button.primary {
     color: #fff;
-    background-color: #343434;
-     }
+    background-color: #343434; }
+    button.primary:hover {
+      background-color: #343434;
+      background-position: -.5em;
+      border-color: rgba(27, 31, 35, 0.5); }
+
+button:hover {
+  background-color: #e6ebf1;
+  background-position: -.5em;
+  border-color: rgba(27, 31, 35, 0.35); }
 
 .header-title {
   text-align: center;
@@ -66,8 +73,9 @@ button {
   font-size: 20px;
   padding-right: 5px; }
 
-/* .icon.status.open::before {
-  content: "\2609"; } */
+.icon.status.open::before {
+  content: "\2609";
+  display: none; }
 
 .icon.status.close::before {
   content: "\2612"; }

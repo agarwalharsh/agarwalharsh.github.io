@@ -25,6 +25,13 @@ class Main extends Component {
           <Switch>
             <Route
               exact
+              path="/"
+              render={props => (
+                <HomePage params={props.match.params} {...this.props} />
+              )}
+            />
+            <Route
+              exact
               path="/github-issue-tracker/"
               render={props => (
                 <HomePage params={props.match.params} {...this.props} />
